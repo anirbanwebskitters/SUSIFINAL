@@ -1,0 +1,343 @@
+body{
+    overflow-x: hidden;
+    margin: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-nav{
+    height: 97px;
+    width: 100%;
+    background-color: #21243d;
+}
+.container{
+    padding: 0px 100px 0px 100px;
+}
+.toggle-icon{
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+.wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.navbar-nav{
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+    padding-right: 40px;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.seacrh-icon{
+    font-size: 20px;
+    color: white;
+}
+/* banner */
+.banner-section{
+    height: 715px;
+    width: 100%;
+    background-image: url(./banner-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.banner-title{
+    padding-top: 200px;
+    color: white;
+    font-size: 100px;
+}
+.banner-para{
+    padding-top: 20px;
+    color: white;
+    font-size: 40px;
+}
+.button{
+    height: 50px;
+    width: 200px;
+}
+.banner-button{
+    margin-top: 60px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #21243d;
+    color: white;
+    font-size: 20px;
+}
+/* section 1  */
+.section-1{
+    height: 887px;
+    width: 100%;
+    background-color: #21243d;
+    background-image: url(../images/sec-1-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.section-1-title-para{
+    text-align: center;
+}
+.section-1-title{
+    padding-top: 40px;
+    color: white;
+    font-size: 70px;
+}
+.section-1-para{
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+.sec-1-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+.sec-1-box-1{
+    text-align: center;
+}
+.sec-1-box-1-title{
+    padding-top: 20px;
+    color: white;
+    font-size: 40px;
+}
+.sec-1-box-1-para{
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+/* section 2 */
+.section-2{
+    height: 793px;
+    width: 100%;
+    background-image: url(../images/sec-2-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-color: #ffd17e;
+}
+.sec-2-img-txt{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+}
+.sec-2-title{
+    color: #21243d;
+    font-size: 70px;
+}
+.sec-2-para{
+    font-size: 30px;
+    color: #21243d;
+}
+.sec-2-button{
+    margin-top: 60px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #21243d;
+    color: white;
+    font-size: 20px;
+}
+/* section 3 */
+.section-3{
+    height: 778px;
+    width: 100%;
+    background-color: #21243d;
+    background-image: url(../images/sec-3-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.sec-3-title-para{
+    text-align: center;
+}
+.sec-3-title{
+    padding-top: 100px;
+    color: white;
+    font-size: 70px;
+}
+.sec-3-para{
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+.sec-3-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+.sec-3-box-1{
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count-txt{
+    text-align: center;
+}
+.count{
+    color: white;
+    font-size: 50px;
+}
+.txt{
+    color: white;
+    font-size: 40px;
+}
+/* section 4 */
+.section-4{
+    height: 797px;
+    width: 100%;
+    background-color: #ffd17e;
+    background-image: url(../images/sec-4-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.sec-4-txt-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+}
+.sec-4-title{
+    color: #21243d;
+    font-size: 70px;
+}
+.sec-4-para{
+    color: #21243d;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.sec-4-button{
+    margin-top: 60px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #21243d;
+    color: white;
+    font-size: 20px;
+}
+/* section 5 */
+.section-5{
+    height: 789px;
+    width: 100%;
+    background-image: url(../images/section-5-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-color: #0d141e;
+    background-blend-mode: overlay;
+}
+.sec-5-img-txt-name{
+    text-align: center;
+}
+.sec-5-photo{
+    padding-top: 150px;
+}
+.sec-5-para{
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+.sec-5-name{
+    padding-top: 20px;
+    color: white;
+    font-size: 40px;
+}
+/* section 6 */
+.section-6{
+    height: 799px;
+    width: 100%;
+    background-color: #ffd17e;
+    background-image: url(../images/sec-6-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.sec-6-title-para-form{
+    text-align: center;
+}
+.sec-6-title{
+    padding-top: 200px;
+    color: #21243d;
+    font-size: 70px;
+}
+.sec-6-para{
+    padding-top: 20px;
+    font-size: 30px;
+    color: #21243d;
+}
+.block{
+    margin-top: 40px;
+    height: 50px;
+    width: 600px;
+    padding-left: 20px;
+    border-style: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.form-button{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #21243d;
+    color: white;
+    font-size: 20px;
+    transform: translate(-30%,2%);
+}
+/* footer */
+.footer-section{
+    height: 789px;
+    width: 100%;
+    background-color: #111111;
+}
+.footer-columns{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+}
+.footer-col-1-title{
+    color: white;
+    font-size: 40px;
+}
+.footer-col-1-para{
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.fa-brands{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: white;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+.social-media-4{
+    margin-right: 0px;
+}
+.footer-items{
+    padding-top: 20px;
+}
+.item{
+    list-style: none;
+    padding-top: 20px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
